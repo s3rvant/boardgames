@@ -1,0 +1,59 @@
+convert any 2 dice into a wild
+
+only debris generates rocks (not dice)
+
+subtract 2 points per unused asteroid
+
+maybe require asteroid for absorbing rather than rocks
+
+
+
+Print-n-play requiring 2x2 puzzle cube
+
+
+Roll the 4 colored dice pictured on top of cube
+
+Staggered track for each color:
+
+. . . .
+ . . . .
+ 
+Circle the 4 from tracks matching your own side as debris in your area
+
+X them off as obsorbed by your planet
+
+Larger circle if 3 of same debris are un-X'd at same time forming larger body
+
+Use larger bodies for moons / rings however lose the game if any remain at end (or just major negative)
+
+Smaller debris can used for minior upgrades like mass / magnetism
+
+Need certain amounts of mass / magnetism in order to hold on to moons / rings
+
+Can still use moon / ring action if not enough mass / magnetism but it just remove debris from area
+- no points in this case
+
+
+
+
+
+mark what sides are available each turn; X when used
+
+"Connect the dots" art as completing upgrades
+
+
+
+
+2 colors each for gas, liquid and solid
+
+score multipliers for life support (air, water), distinctive features (moon/ring) and...
+
+
+
+
+1. generate debris - required to circle matching dots
+2. assign dice - action, matching debris or half other debris (round up)
+3. resolve actions - increase mass last
+4. merge asteroids - 3 of same size merge; 2nd merge = new protoplanet (big negative points)
+
+

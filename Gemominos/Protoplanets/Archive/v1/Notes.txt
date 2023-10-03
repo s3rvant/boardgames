@@ -1,0 +1,35 @@
+Sushi Go + Nightfall + Mystic Vale + GOSU II
+
+Cards are split into 3 chunks:
+- When enters play effect + priority
+- How long it remains in play
+- When leaves play effect
+
+Start:
+Reduce duration on all cards in play
+Spent cards placed on bottom of deck
+
+Draw:
+Fill private store to 3 cards
+Draw hand of 3 cards from deck
+
+Play:
+card(s) by highest priorty - clockwise
+rest of hand on bottom of deck
+
+Buy:
+Place 1 in public display (earns extra gold)
+card(s) to buy
+Pass rest
+Merge purchases with card(s) in play
+
+
+Player damage mills deck to discard pile
+Healing adds card from discard to bottom of deck
+Cannot damage player while bot in play
+Damage to bot reduces duration
+
+Cards have cost on back (1,2,3)
+Split into 3 decks and shuffled, in center of table
+Money generated draws card face-down in front of player
+Spent money returns to deck

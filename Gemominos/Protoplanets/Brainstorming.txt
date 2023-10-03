@@ -1,0 +1,12 @@
+2x2 Rubik's cube rotates on board from Protoplanets
+Randomize so that no side has more than 2 of same color
+Players draw matching colored d6 of squares facing them
+Everyone gets matching colored cubes of top faces
+Players each have 6 cards with listed abilities
+Players roll dice with number representing which card they can activate
+Cards list 2-3 colors that give special effect for their number
+Players assign dice to cards to activate their effects
+Players can assign 2 dice to make die either a different number or a different color
+Wood cubes are assigned the same with number being wild
+Wood cubes can be paired with dice same as 2 dice
+The 6 cards are 6 phases that are then resolved in order
