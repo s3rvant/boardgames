@@ -1,0 +1,9 @@
+unit = inch
+cardsize = 2.5, 3.5
+LINK=cards.ods
+image = , blank.png, 0, 0, 100%, 100%, 0
+font = "DejaVu Sans",14, T, #000000
+text = , [Primary], 35%, 25%, 75%, 30%
+text = , [Secondary], 35%, 43%, 75%, 30%
+display = sheet1.png, 1, 15
+display = sheet2.png, 16, 18
