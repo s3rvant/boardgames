@@ -35,3 +35,8 @@ When successful the player flips the disc over to its marked side; this disc can
 
 ## Game End
 As soon as a player successfully scores for a 2nd time they immediately win the game.
+
+## Icon Attribution
+Frogs: <a href="https://www.flaticon.com/free-icons/wildlife" title="wildlife icons">Wildlife icons created by Freepik - Flaticon</a>
+
+Fly: <a href="https://www.flaticon.com/free-icons/fly" title="fly icons">Fly icons created by Freepik - Flaticon</a>
