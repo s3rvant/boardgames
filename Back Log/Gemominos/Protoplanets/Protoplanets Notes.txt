@@ -56,4 +56,3 @@ score multipliers for life support (air, water), distinctive features (moon/ring
 3. resolve actions - increase mass last
 4. merge asteroids - 3 of same size merge; 2nd merge = new protoplanet (big negative points)
 
-
