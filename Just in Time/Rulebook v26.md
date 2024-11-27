@@ -97,7 +97,7 @@ Each time a shard is aligned by flipping or swapping so that it is blank and mat
 These steps must be completed immediately; they cannot be delayed to rewind first (see Rewind below).
 
 ## Actions
-Players each simultaneously either selects 1 of their shards or 1 card from their hand. Once all players are ready they each reveal their choice resolving shards first and then cards in order to take their actions. Shards are used to rewind time while cards each have 2 actions available and when played only 1 of the actions is chosen and resolved. Any players without cards remaining can not take card actions.
+Players each simultaneously either selects 1 of their shards or 1 card from their hand. Once all players are ready they each reveal their choice resolving shards first and then cards in order to take their actions. Shards are used to rewind time while cards each have 2 actions available and when played only 1 of the actions is chosen and resolved. Any players without cards must select a shard if able; otherwise they lose their turn (see End Game below).
 
 ### Rewind
 Before any card actions are resolved any player who selected a shard for their turn now rewinds time. The benefit from rewinding time decreases over the course of the game depending on how many time markers have stabilized at that player's current place:
@@ -132,7 +132,7 @@ The originating shard must exist in order to be swapped, i.e., match color with 
 Instead of resolving an action on the player's chosen card they may discard the card to their physical meeple’s place in order to place their other 2 cards on the bottom of their deck.
 
 ## End Game
-If the players run out of cards they lose the game forever lost as Presentville’s space-time ceases to exist.
+If all players run out of cards and shards they lose the game forever lost as Presentville’s space-time ceases to exist.
 
 Otherwise the players continue to take actions until the 1st goal has been completed at which point they perform the following setup for the 2nd goal:
 * Swap the 3 place goal tokens with the 3 time goal tokens
