@@ -101,8 +101,8 @@ Players each simultaneously either selects 1 of their shards or 1 card from thei
 
 ### Rewind
 Before any card actions are resolved any player who selected a shard for their turn now rewinds time. The benefit from rewinding time decreases over the course of the game depending on how many time markers have stabilized at that player's current place:
-* 0-2 time markers: rewind returns the top card from the player's present time place as well as both past time places
-* 3-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
+* 0-2 time markers: return the top card from the player's present time place as well as both past time places
+* 3-5 time markers: return only the top cards from both of the player's past time places (not present)
 * 6 time markers: cannot rewind time
 
 To rewind time the player discards their shard to the game box and then takes cards as indicated above and then returns them to their owning players who place those cards on the bottom of their deck.
@@ -145,11 +145,11 @@ Players continue taking actions until the 2nd goal has been completed ending the
 The cards granted from rewinding time can be adjusted to either relax or further challenge the efficiency needed while playing the game:
 
 **Easier**
-* 0-5 time markers: rewind returns the top card from the player's present time place as well as both past time places
+* 0-5 time markers: return the top card from the player's present time place as well as both past time places
 
 **Harder**
-* 0-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
+* 0-5 time markers: return only the top cards from both of the player's past time places (not present)
 
 **Impossible?**
-* 3-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
-* 0-2 time markers: rewind returns only the top card from the player's present time place (not past)
+* 3-5 time markers: return only the top cards from both of the player's past time places (not present)
+* 0-2 time markers: return only the top card from the player's present time place (not past)
