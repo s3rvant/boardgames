@@ -104,12 +104,12 @@ However, as time markers are moved to the places the time on that place begins t
 Players each simultaneously either selects 1 of their shards or 1 card from their hand. Once all players are ready they each reveal their choice resolving shards first and then cards in order to take their actions. Shards are used to rewind time while cards each have 2 actions available and when played only 1 of the actions is chosen and resolved. Any players without cards remaining can not take card actions.
 
 ### Rewind
-Before any card actions are resolved any player who selected a shard for their turn now rewinds time. The cost to rewind time increases over the course of the game depending on how many time markers have stabilized at that player's current place:
-* 0-2 time markers: rewind costs 1 shard
-* 3-5 time markers: rewind costs 2 shards
+Before any card actions are resolved any player who selected a shard for their turn now rewinds time. The benefit from rewinding time decreases over the course of the game depending on how many time markers have stabilized at that player's current place:
+* 0-2 time markers: rewind returns the top card from the player's present time place as well as both past time places
+* 3-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
 * 6 time markers: cannot rewind time
 
-To rewind time the player discards their shards to the game box and then takes the top card from their present time place and both of their past time places and then returns them to their owning players who place those cards on the bottom of their deck.
+To rewind time the player discards their shard to the game box and then takes cards as indicated above and then returns them to their owning players who place those cards on the bottom of their deck.
 
 ### Card Actions
 Each player that selected a card chooses 1 of the 2 actions to resolve as specified below. After resolving the chosen action the card is discarded directly to the game board on one of the USED slots. For place effects discard the card to the slot on the player’s physical meeple’s place; for time effects discard the card to the slot on the player’s temporal meeple’s time. The player then draws cards from their deck to refill their hand to 3 cards.
@@ -144,3 +144,16 @@ Otherwise the players continue to take actions until the 1st goal has been compl
 * Place time markers on each of the shards according to the new goal
 
 Players continue taking actions until the 2nd goal has been completed ending the game in victory for the players, saving Presentville, as place and time restore to their rightful ways.
+
+## Adjust Difficulty
+The cards granted from rewinding time can be adjusted to either relax or further challenge the efficiency needed while playing the game:
+
+**Easier**
+* 0-5 time markers: rewind returns the top card from the player's present time place as well as both past time places
+
+**Harder**
+* 0-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
+
+**Impossible?**
+* 3-5 time markers: rewind returns only the top cards from both of the player's past time places (not present)
+* 0-2 time markers: rewind returns only the top card from the player's present time place (not past)
