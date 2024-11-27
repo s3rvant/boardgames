@@ -128,7 +128,7 @@ Swap a shard from the player’s temporal meeple’s place with a shard from the
 
 The originating shard must exist in order to be swapped, i.e., match color with one of the player’s past or present times; the destination shard may be any color.
 
-**Special Action: Brainstorm**
+**Special Action: Brainstorm**  
 Instead of resolving an action on the player's chosen card they may discard the card to their physical meeple’s place in order to place their other 2 cards on the bottom of their deck.
 
 ## End Game
