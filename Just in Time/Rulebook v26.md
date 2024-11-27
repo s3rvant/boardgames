@@ -108,7 +108,7 @@ Before any card actions are resolved any player who selected a shard for their t
 To rewind time the player discards their shard to the game box and then takes cards as indicated above and then returns them to their owning players who place those cards on the bottom of their deck.
 
 ### Card Actions
-Each player that selected a card chooses 1 of the 2 actions to resolve as specified below. After resolving the chosen action the card is discarded directly to the game board on one of the USED slots. For place effects discard the card to the slot on the player’s physical meeple’s place; for time effects discard the card to the slot on the player’s temporal meeple’s time. The player then draws cards from their deck to refill their hand to 3 cards.
+Each player that selected a card chooses 1 of the 2 actions to resolve as specified below. After resolving the chosen action the card is discarded directly to the game board on one of the USED slots. For place effects discard the card to the slot on the player’s physical meeple’s place; for time effects discard the card to the slot on the player’s temporal meeple’s place. The player then draws cards from their deck to refill their hand to 3 cards.
 
 There are 3 different card actions each with a place and time variation as well as a special action that can be taken:
 
