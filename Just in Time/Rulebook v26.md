@@ -94,11 +94,7 @@ Each time a shard is aligned by flipping or swapping so that it is blank and mat
 * The player to complete the alignment takes the shard to spend later
 * The time marker is moved to the bottom-most available stability slot in its respective place
 
-These steps must be completed immediately; they cannot be delayed to rewind first.
-
-Cards that have been discarded can be picked back up again by rewinding time by any player. Players can discard 1 of their shards to the box in order to return the cards from their current place to the bottom of their respective players' decks.
-
-However, as time markers are moved to the places the time on that place begins to stabilize making it more difficult to rewind. Once a place has 3 time markers, covering a larger icon, players must discard 2 of their shards in order to rewind time at that place. Similarly once a place has all 6 time markers, covering both larger icons, players can no longer rewind time at that place.
+These steps must be completed immediately; they cannot be delayed to rewind first (see Rewind below).
 
 ## Actions
 Players each simultaneously either selects 1 of their shards or 1 card from their hand. Once all players are ready they each reveal their choice resolving shards first and then cards in order to take their actions. Shards are used to rewind time while cards each have 2 actions available and when played only 1 of the actions is chosen and resolved. Any players without cards remaining can not take card actions.
