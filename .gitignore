@@ -1,2 +1,2 @@
 # Ignore GMIP files
-Just in Time/*.xcf
+*.xcf
