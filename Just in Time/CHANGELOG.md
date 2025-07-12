@@ -1,4 +1,9 @@
 # Rulebook Changelog
+## Version 27
+* Added brainstorm icon to cards as always available action
+* Changed rewind to present/past, present/near past, present only
+* Updated difficulty adjustments due to above
+
 ## Version 26
 * During setup any matching time markers and shards now cause shards to flip to their distorted side instead of swapping with adjacent spaces
 * Shards are now played instead of a card as the player's entire turn and these resolve prior to cards that turn
