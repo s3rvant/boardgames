@@ -4,6 +4,8 @@
 
 The goal is a web client via Godot for performing final playtesting and demos as essentially a physics sandbox. There will be no game logic or artwork; only plain shapes, controls and networking.
 
+Completed project due by August 31, 2026
+
 ## Components
 - 4 discs (Crokinole style for reference)
 - 1 pole
