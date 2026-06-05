@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://mbffxcgb6ndv"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://dxrkbr6hjdy1q" path="res://maple_physics_material.tres" id="1_m55ix"]
+[ext_resource type="ArrayMesh" uid="uid://vmakd0uy6y4c" path="res://octogon.obj" id="2_6w55b"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_24yto"]
+points = PackedVector3Array(-1, -2.5, -0.000195742, -0.707126, -2.5, -0.707126, -0.707126, -2.5, 0.70693, -1, 2.5, -0.000195742, -0.707126, 2.5, -0.707126, -0.000195742, -2.5, -1, -0.000195742, -2.5, 1, -0.707126, 2.5, 0.70693, -0.000195742, 2.5, -1, 0.70693, -2.5, -0.707126, 0.70693, -2.5, 0.70693, -0.000195742, 2.5, 1, 0.70693, 2.5, -0.707126, 1, -2.5, -0.000195742, 0.70693, 2.5, 0.70693, 1, 2.5, -0.000195742)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6w55b"]
+albedo_color = Color(0.103744, 0.103744, 0.103744, 1)
+
+[node name="Pole RigidBody3D" type="RigidBody3D"]
+mass = 10.0
+physics_material_override = ExtResource("1_m55ix")
+continuous_cd = true
+linear_damp = 0.2
+angular_damp = 0.4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_24yto")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = ExtResource("2_6w55b")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_6w55b")

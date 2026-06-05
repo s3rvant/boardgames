@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=3 uid="uid://jja0rwsiuit8"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://dxrkbr6hjdy1q" path="res://maple_physics_material.tres" id="1_jd0nb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1emcc"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jd0nb"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v5i0k"]
+albedo_color = Color(0.0627451, 0.0627451, 0.0627451, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kl0hw"]
+size = Vector3(40, 2.5, 40)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vjl2i"]
+size = Vector3(40, 2.5, 40)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_67vji"]
+albedo_color = Color(0, 0.298039, 0.458824, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jd0nb"]
+size = Vector3(51, 50, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Table StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+physics_material_override = ExtResource("1_jd0nb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Table StaticBody3D"]
+shape = SubResource("BoxShape3D_1emcc")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Table StaticBody3D/CollisionShape3D"]
+mesh = SubResource("BoxMesh_jd0nb")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_v5i0k")
+
+[node name="Board StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 0)
+physics_material_override = ExtResource("1_jd0nb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Board StaticBody3D"]
+shape = SubResource("BoxShape3D_kl0hw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Board StaticBody3D/CollisionShape3D"]
+mesh = SubResource("BoxMesh_vjl2i")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_67vji")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.707107, -0.5, 0.5, 2.98023e-08, 0.707107, 0.707107, -0.707107, -0.5, 0.5, 25, 10, 25)
+light_energy = 2.0
+sky_mode = 1
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.707107, 0.5, -0.5, 8.9407e-08, 0.707107, 0.707107, 0.707107, -0.5, 0.5, -25, 10, 25)
+light_energy = 2.0
+sky_mode = 1
+
+[node name="DirectionalLight3D3" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.707107, 0.5, -0.5, -2.98023e-08, 0.707107, 0.707107, 0.707107, 0.5, -0.5, -25, 10, -25)
+light_energy = 2.0
+sky_mode = 1
+
+[node name="DirectionalLight3D4" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.707107, -0.5, 0.5, -2.98023e-08, 0.707107, 0.707107, -0.707107, 0.5, -0.5, 25, 10, -25)
+light_energy = 2.0
+sky_mode = 1
+
+[node name="Ceiling" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 48, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ceiling"]
+shape = SubResource("BoxShape3D_1emcc")
+
+[node name="Wall" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 24, 25.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall"]
+shape = SubResource("BoxShape3D_jd0nb")
+
+[node name="Wall2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 24, -25.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall2"]
+shape = SubResource("BoxShape3D_jd0nb")
+
+[node name="Wall3" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 25.5, 24, -0.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall3"]
+shape = SubResource("BoxShape3D_jd0nb")
+
+[node name="Wall4" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -25.5, 24, 0.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall4"]
+shape = SubResource("BoxShape3D_jd0nb")

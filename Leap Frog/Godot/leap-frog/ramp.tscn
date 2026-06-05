@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://nh1rehkb17r7"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://dxrkbr6hjdy1q" path="res://maple_physics_material.tres" id="1_3mex0"]
+[ext_resource type="ArrayMesh" uid="uid://dw0bcvgsjrbdh" path="res://ramp1.obj" id="1_sqs1n"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3mex0"]
+points = PackedVector3Array(1.5, -0.5, 3, -1.5, -0.5, 3, 1.5, -0.5, -3, 1.5, 0.5, -3, -1.5, 0.5, -3, -1.5, -0.5, -3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tfnrl"]
+albedo_color = Color(0.250156, 0.0963736, 0.0162614, 1)
+
+[node name="Ramp RigidBody3D" type="RigidBody3D"]
+mass = 20.0
+physics_material_override = ExtResource("1_3mex0")
+continuous_cd = true
+linear_damp = 0.2
+angular_damp = 0.4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_3mex0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+mesh = ExtResource("1_sqs1n")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_tfnrl")

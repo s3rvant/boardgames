@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://qdcjdnb056v"]
+
+[ext_resource type="PackedScene" uid="uid://x2g7brjy311u" path="res://disc.tscn" id="1_a0tk4"]
+[ext_resource type="ArrayMesh" uid="uid://dnaf1vhqpjg5h" path="res://puck.obj" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://jja0rwsiuit8" path="res://table.tscn" id="1_r3fl7"]
+[ext_resource type="PackedScene" uid="uid://nh1rehkb17r7" path="res://ramp.tscn" id="4_jka67"]
+[ext_resource type="PackedScene" uid="uid://mbffxcgb6ndv" path="res://pole.tscn" id="5_i5arm"]
+[ext_resource type="PackedScene" uid="uid://c25uweq776buk" path="res://eye.tscn" id="6_i5arm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3fl7"]
+albedo_color = Color(0.545098, 0.243137, 0.0745098, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a202f"]
+albedo_color = Color(0, 0.278431, 0.14902, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Table" parent="." instance=ExtResource("1_r3fl7")]
+
+[node name="Disc B1" parent="." instance=ExtResource("1_a0tk4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.30633, -2.99001)
+
+[node name="Brown Mesh" type="MeshInstance3D" parent="Disc B1"]
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_r3fl7")
+
+[node name="Disc B2" parent="." instance=ExtResource("1_a0tk4")]
+transform = Transform3D(1, 0, 0, 0, 0.584844, -0.811145, 0, 0.811145, 0.584844, 3.09212, 5.60139, -7.4306)
+
+[node name="Brown Mesh" type="MeshInstance3D" parent="Disc B2"]
+transform = Transform3D(1, 0, 0, 0, 0.683376, 0.730067, 0, -0.730067, 0.683376, 1.77898, 5.00216, 3.60661)
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_r3fl7")
+
+[node name="Disc G1" parent="." instance=ExtResource("1_a0tk4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.689908, 4.84168, 2.94959)
+
+[node name="Green Mesh" type="MeshInstance3D" parent="Disc G1"]
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_a202f")
+
+[node name="Disc G2" parent="." instance=ExtResource("1_a0tk4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0453484, 6.52787, -2.95279)
+
+[node name="Green Mesh" type="MeshInstance3D" parent="Disc G2"]
+mesh = ExtResource("1_a202f")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_a202f")
+
+[node name="Ramp" parent="." instance=ExtResource("4_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3935, 3.1361, 0)
+
+[node name="Pole" parent="." instance=ExtResource("5_i5arm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.76315, 6.6468, 2.95093)
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("6_i5arm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.515574, 7.87881, -12.628)
