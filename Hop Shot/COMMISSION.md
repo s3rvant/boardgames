@@ -1,5 +1,7 @@
 # Commission
 
+NO LONGER AVAILABLE
+
 # Requirements
 
 The goal is a web client via Godot for performing final playtesting and demos as essentially a physics sandbox. There will be no game logic or artwork; only plain shapes, controls and networking.
@@ -43,7 +45,7 @@ https://boardgamegeek.com/thread/2492441/leap-frog-a-micro-dexterity-game-for-2-
 
 Discussion on Discord:
 
-https://discord.gg/Y3QYC4zYXy
+NO LONGER AVAILABLE
 
 # Compensation
 
@@ -56,8 +58,4 @@ Final $100 to be paid on delivery of final working project meeting above require
 
 # Contact
 
-Interested parties may contact David Gregg at:
-
-hopshotcommission@mail42.aleeas.com
-
-or via Discord username: s3rvant
+NO LONGER AVAILABLE
