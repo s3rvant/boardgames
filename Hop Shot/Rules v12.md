@@ -31,9 +31,8 @@ There must be a disc between the pole and one of the current player's discs to a
 1. Hold the card against the disc making a ramp and aiming it at the pole
 2. Flick the player's disc up the card toward the pole
 
-If the disc hits the pole while still airborne and the pole falls over the ramp is successful.
-
-Do not flick your other disc.
+If the disc hits the pole while still airborne and the pole falls over the ramp is successful.  
+Either way do not flick your other disc.
 
 ## Game End
 The first player to successfully ramp twice wins.
