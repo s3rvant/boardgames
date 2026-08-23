@@ -19,7 +19,7 @@ Players attempt to win by knocking over the pole twice with an airborne disc.
 ### Turns
 1. The current player takes an action with 1 of their discs: **Flick** or **Ramp**
 2. After an action, see **Leaving Play** for any discs that left play
-3. If the player's first action is a Flick:
+3. If the player's first action is a **Flick**:
     * If the disc hits an opponent's disc, the current player may take an action with their other disc
     * Otherwise, the opponent may **Flick** their non-pole disc
 4. The current player then ends their turn by placing the pole on the disc they least recently took an action with
