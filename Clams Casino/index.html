@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clams Casino workspace." />
+    <title>Clams Casino</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header"><a class="logo" href="#">Clams Casino</a></header>
+
+    <main class="workspace">
+      <section class="panel" aria-labelledby="form-heading">
+        <h1 id="form-heading">Settings</h1>
+        <form id="entry-form">
+          <div class="form-field">
+            <label for="black-dice">Black Dice</label>
+            <input id="black-dice" name="black-dice" type="number" value="1" required />
+          </div>
+          <div class="form-field">
+            <label for="blue-dice">Blue Dice</label>
+            <input id="blue-dice" name="blue-dice" type="number" value="2" required />
+          </div>
+          <div class="form-field">
+            <label for="red-dice">Red Dice</label>
+            <input id="red-dice" name="red-dice" type="number" value="2" required />
+          </div>
+          <div class="form-field">
+            <label for="black-snail">Black Snail Spaces</label>
+            <input id="black-snail" name="black-snail" type="number" value="1" required />
+          </div>
+          <div class="form-field">
+            <label for="blue-snail">Blue Snail Spaces</label>
+            <input id="blue-snail" name="blue-snail" type="number" value="2" required />
+          </div>
+          <div class="form-field">
+            <label for="red-snail">Red Snail Spaces</label>
+            <input id="red-snail" name="red-snail" type="number" value="1" required />
+          </div>
+          <div class="form-field">
+            <label for="move">Move Tied Snails</label>
+            <select id="move" name="move" required>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="tests">Tests</label>
+            <input id="tests" name="tests" type="number" value="1000000" required />
+          </div>
+          <button class="button" type="submit">Start Test</button>
+        </form>
+      </section>
+
+      <section class="panel" aria-labelledby="log-heading">
+        <h2 id="log-heading">Output Log</h2>
+        <pre id="output-log" class="output-log" aria-live="polite">Ready.</pre>
+      </section>
+
+      <section class="panel" aria-labelledby="results-heading">
+        <h2 id="results-heading">Results</h2>
+        <pre id="results-list" class="results-list" aria-live="polite">Ready.</pre>
+      </section>
+    </main>
+  </body>
+</html>

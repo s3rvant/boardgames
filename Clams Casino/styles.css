@@ -1,0 +1,134 @@
+:root {
+  color-scheme: light;
+  --background: #f7f7f2;
+  --surface: #ffffff;
+  --text: #18201c;
+  --muted: #5f6963;
+  --accent: #087f5b;
+  --accent-dark: #056647;
+  --border: #dce2dd;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  color: var(--text);
+}
+
+.site-header {
+  width: min(100% - 2rem, 90rem);
+  margin-inline: auto;
+  padding-block: 1.25rem;
+}
+
+.logo {
+  color: inherit;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.workspace {
+  width: min(100% - 2rem, 90rem);
+  margin-inline: auto;
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.panel {
+  min-width: 0;
+  min-height: 32rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface);
+}
+
+.panel h1, .panel h2 {
+  margin: 0 0 1.25rem;
+  font-size: 1.5rem;
+}
+
+.form-field { margin-bottom: 1rem; }
+
+label {
+  margin-bottom: 0.35rem;
+  display: block;
+  font-weight: 700;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: #ffffff;
+  color: var(--text);
+  font: inherit;
+}
+
+textarea { resize: vertical; }
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--accent);
+  outline: 3px solid rgb(8 127 91 / 15%);
+}
+
+.button {
+  padding: 0.8rem 1.25rem;
+  border: 0;
+  border-radius: 0.6rem;
+  background: var(--accent);
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.button:not(:disabled):hover,
+.button:not(:disabled):focus-visible {
+  background: var(--accent-dark);
+}
+
+.button:disabled {
+  background: #d97706;
+  color: #ffffff;
+  cursor: wait;
+}
+
+.output-log, .results-list {
+  height: calc(100% - 3rem);
+  min-height: 24rem;
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 0.6rem;
+  background: #18201c;
+  color: #d9fbe8;
+  font: 0.9rem/1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.site-footer {
+  padding: 2rem 1rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.site-footer p { margin: 0; }
+
+@media (max-width: 55rem) {
+  .workspace { grid-template-columns: 1fr; }
+  .panel { min-height: auto; }
+}

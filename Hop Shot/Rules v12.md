@@ -26,6 +26,8 @@ Players attempt to win by knocking over the pole twice with an airborne disc.
 1. The current player flicks 1 of their discs along the play surface
 2. If the pole is knocked over, return it to its disc and end the current player's turn
 
+<div style="page-break-after: always;"></div>
+
 #### Ramp
 To **Ramp**, there must be a disc between the player's disc and the pole:
 1. Hold the card near the disc to be ramped with one edge on the play surface, creating a ramp aimed at the pole
