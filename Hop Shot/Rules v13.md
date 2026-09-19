@@ -2,49 +2,48 @@
 A micro dexterity game for 2 players in 10 minutes inspired by the Japanese sport of pole toppling.
 
 ## Components
-* 4 discs: 2 each of black and natural
-* 1 pole
-* 1 reference card
+* 4 frogs: 2 each of brown and green
+* 1 fly
+* 1 leap/reference card
 
 ## Setup
-1. Select a play surface; ideally a smooth table or play mat around 3' per side
-2. Each player selects a color and places their discs along the edge of the play surface closest to themselves
-3. Set the pole and card aside
-4. Players take turns flicking one disc into play
-5. Place the pole on top of the final disc to be flicked
+1. Select a play surface; ideally a smooth table or play mat around 3 feet per side
+2. Each player selects a color and places their frogs along the edge of the play surface closest to themselves
+3. Set the fly and leap card aside
+4. Players take turns flicking one frog into play (reflick any that leave play)
+5. Place the fly on top of the final frog to be flicked
 
 ## Gameplay
-Players attempt to win by knocking over the pole twice with an airborne disc.
+Players attempt to win by knocking over the fly twice with an airborne frog.
 
 ### Turns
-1. The current player takes an action with 1 of their discs: **Flick** or **Ramp**
-2. After an action, see **Leaving Play** for any discs that left play
+1. The current player takes an action with 1 of their frogs: **Flick** or **Leap**
+2. After an action, see **Leaving Play** for any frogs that left play
 3. If the player's first action is a **Flick**:
-    * If the disc hits an opponent's disc, the current player may take an action with their other disc
-    * Otherwise, the opponent may **Flick** their non-pole disc
-4. The current player then ends their turn by placing the pole on the disc they least recently took an action with
+    * If the frog hits an opponent's frog, the current player may take an action with their other frog
+    * Otherwise, the opponent may **Flick** their non-fly frog
+4. The current player then ends their turn by placing the fly on the frog they least recently took an action with
 
 #### Flick
-1. The current player flicks 1 of their discs along the play surface
-2. If the pole is knocked over, return it to its disc and end the current player's turn
+1. The current player flicks 1 of their frogs along the play surface
+2. If the fly is knocked over, return it to its frog and end the current player's turn
 
 <div style="page-break-after: always;"></div>
 
-#### Ramp
-To **Ramp**, there must be a disc between the player's disc and the pole:
-1. Hold the card near the disc to be ramped with one edge on the play surface, creating a ramp aimed at the pole
-2. Flick the player's disc up the card toward the pole
-3. If the disc hits the pole while still airborne and the pole falls over, the **Ramp** is successful
+#### Leap
+To **Leap**, there must be a frog between the player's frog and the fly:
+1. Hold the leap card near the frog preparing to leap with one edge on the play surface, creating a ramp aimed at the fly
+2. Flick the player's frog up the leap card toward the fly
+3. If the frog hits the fly while still airborne and the fly falls over, the **Leap** is successful
 4. The current player's turn ends
 
 #### Leaving Play
-* If any of the current player's discs leave play, return them to their edge of the play surface
-* If any opponent discs leave play, the opponent flicks them back into play and the current player's turn ends
+* If any of the current player's frogs leave play, return them to their edge of the play surface
+* If any opponent frogs leave play, the opponent flicks them back into play and the current player's turn ends
 
 ## Game End
-The first player to complete 2 successful **Ramps** wins.
+The first player to complete 2 successful **Leaps** wins.
 
 ## Web Links
 Discussion thread: https://boardgamegeek.com/thread/2492441  
-Discord server: https://discord.gg/zKhu6G9tfg  
-Play online: https://hopshot.s3rvant.com
+Discord server: https://discord.gg/zKhu6G9tfg
