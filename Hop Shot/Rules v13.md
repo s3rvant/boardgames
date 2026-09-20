@@ -2,8 +2,8 @@
 A micro dexterity game for 2 players in 10 minutes inspired by the Japanese sport of pole toppling.
 
 ## Components
-* 4 frogs: 2 each of brown and green
-* 1 fly
+* 4 frogs (discs): 2 each of brown and green
+* 1 fly (pole)
 * 1 leap/reference card
 
 ## Setup
