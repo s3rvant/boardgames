@@ -4,12 +4,12 @@ A micro dexterity game for 2 players in 10 minutes inspired by the Japanese spor
 ## Components
 * 4 frogs (discs): 2 each of brown and green
 * 1 fly (pole)
-* 1 leap/reference card
+* 4 leap/rules cards
 
 ## Setup
 1. Select a smooth play surface, ideally around 3 feet per side, with room for players to move around it
 2. Each player selects a color and places their frogs along the edge of the play surface closest to themselves
-3. Set the fly and leap card aside
+3. Set the fly and leap cards aside
 4. Choose a first player, such as by playing odds and evens with the frogs
 5. Beginning with the first player, players take turns flicking one frog into play; if any frog leaves play, follow **Leaving Play**
 6. Once all four frogs are in play, the second player places the fly on either of their frogs
@@ -34,7 +34,7 @@ Whenever your turn ends, after resolving **Leaving Play**, place the fly on the 
 
 #### Leap
 To **Leap**, there must be another frog (either player's) between your frog and the fly:
-1. Position the leap card as a ramp near your frog, with one edge touching the play surface and the ramp aimed toward the fly
+1. Position a leap card as a ramp near your frog, with one edge touching the play surface and the ramp aimed toward the fly
 2. Flick your frog up the ramp toward the fly
 3. If your frog hits the fly while airborne and knocks it over, the **Leap** is successful
 4. Your turn ends
