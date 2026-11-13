@@ -26,7 +26,7 @@ Players attempt to win by knocking over the fly twice with an airborne frog.
 
 #### Flick
 1. The current player flicks 1 of their frogs along the play surface
-2. If the fly is knocked over, return it to its frog and end the current player's turn
+2. If the fly is knocked over, end the current player's turn
 
 <div style="page-break-after: always;"></div>
 
@@ -38,8 +38,7 @@ To **Leap**, there must be a frog between the player's frog and the fly:
 4. The current player's turn ends
 
 #### Leaving Play
-* If any of the current player's frogs leave play, return them to their edge of the play surface
-* If any opponent frogs leave play, the opponent flicks them back into play and the current player's turn ends
+If any frogs leave play, the opponent immediately flicks them back into play and the current player's turn ends.
 
 ## Game End
 The first player to complete 2 successful **Leaps** wins.
