@@ -51,3 +51,7 @@ The first player to complete 2 successful **Leaps** wins.
 ## Web Links
 Hop Shot website: https://hopshotgame.com  
 Discord server: https://discord.gg/zKhu6G9tfg
+
+## Credits
+Game design by David Gregg  
+Card and logo illustration by Ade
