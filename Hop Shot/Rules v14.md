@@ -32,8 +32,6 @@ Whenever your turn ends, after resolving **Leaving Play**, place the fly on the 
 1. Flick one of your frogs along the play surface
 2. If the fly is knocked over, your turn ends
 
-<div style="page-break-after: always;"></div>
-
 #### Leap
 To **Leap**, there must be another frog (either player's) between your frog and the fly:
 1. Position the leap card as a ramp near your frog, with one edge touching the play surface and the ramp aimed toward the fly
@@ -51,5 +49,5 @@ If any frogs leave play:
 The first player to complete 2 successful **Leaps** wins.
 
 ## Web Links
-Discussion thread: https://boardgamegeek.com/thread/2492441  
+Hop Shot website: https://hopshotgame.com  
 Discord server: https://discord.gg/zKhu6G9tfg
